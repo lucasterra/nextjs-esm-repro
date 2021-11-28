@@ -1,0 +1,26 @@
+{
+  "name": "@next-esm-repro/design-system",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A design system",
+  "exports": "./build/esm/index.js",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "build": "babel --config-file ./babel.config.cjs ./src --source-maps --out-dir ./build/esm"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}

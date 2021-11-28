@@ -1,0 +1,14 @@
+{
+  "name": "@next-esm-repro/root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspace @next-esm-repro/design-system build",
+    "start": "yarn workspace @next-esm-repro/app start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
