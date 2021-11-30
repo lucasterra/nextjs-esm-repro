@@ -1,4 +1,4 @@
-# Next.js bug when importing ESM libraries
+# Next.js bug when importing ESM libraries that imports CJS.
 
 ## Problem
 
