@@ -10,17 +10,17 @@
     "build": "babel --config-file ./babel.config.cjs ./src --source-maps --out-dir ./build/esm"
   },
   "peerDependencies": {
-    "react": ">=17",
-    "react-dom": ">=17"
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "@babel/runtime": "^7.16.3",
-    "@babel/plugin-transform-runtime": "^7.16.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/runtime": "^7.18.0",
+    "@babel/plugin-transform-runtime": "^7.18.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   }
 }
